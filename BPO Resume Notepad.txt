@@ -1,0 +1,209 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Karthikeyan P}{ \item {} 6379943278  | karthikeyan210595@gmail.com
+\item  Coimbatore, Tamilnadu}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Sri Jayendra \\Saraswathy College\\ of Arts \& Science}
+\descript{M.Sc Computer Science}
+\location{April 2017 | Percentage: 78}
+\sectionsep
+
+\subsection{Sri Jayendra \\Saraswathy College\\ of Arts \& Science}
+\descript{B.Sc Computer Science}
+\location{April 2015 | Percentage: 78}
+\sectionsep
+
+\subsection{Kalaimagal Matric \\HR. SEC. School}
+\location{March 2012 | Percentage: 58}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Links} 
+LinkedIn: \href{https://linkedin.com/in/karthikeyan-p-209952262}{\bf Karthikeyan P} \\
+Github: \href{https://github.com/Karthik-paramasivam/}{\bf Karthikeyan Paramasivam} \\
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Certification} 
+\descript{TCS Training Programme on English Communication and Corporate Etiquette  } \\
+\location{January 2015 | SJSMVCAS}
+\\\sectionsep
+\descript{MERN STACK DEVELOPMENT} \\
+\location{August 2023 | Nschool Academy}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTERESTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{INTERESTS} 
+\textbullet{}Chess\\
+\textbullet{}Cricket
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\sectionsep
+\runsubsection{Apexon}
+\descript{| Specailist Payor Auditor }
+\location{Nov 2017 - Jan 2023 | Coimbatore,  Tamilnadu}
+\vspace{\topsep}
+\begin{tightemize}
+\item \textbf{Project: Healthfirst – U.S Commercial Health Insurance.}
+
+\item Performed an audit of processes such as\\
+\textbf{\textbullet{} PEGA Medicaid \textbullet{} UWF Billing\\ \textbullet{} CHP Invoice \textbullet{} CHP Disenrollment \\\textbullet{} CHP Payments \textbullet{} PEGA EIM}\\
+on behalf of Healthfirst Insurance, ensuring that they met the requirements of Healthfirst's audit guidelines.
+
+\item \textbf{Tools used for process:} Citrix, MHS, Biztalk, Pega \& Sharepoint.
+
+\item \textbf{Line of business processed:} Essential Plan, Qualified Health Plan, Medicaid \& Child Health Plan.
+
+\item \textbf{Conducted audit processes} on behalf of \textbf{Healthfirst} for \textbf{tasks}, \textbf{service requests}, and \textbf{files managed by the vendor, Sutherland Global Services and First Source}, ensuring that the processed files \textbf{met Healthfirst’s quality standards} and \textbf{minimized errors} to maintain \textbf{high-quality output}.
+
+\item \textbf{Provided process updates to the team} based on the latest Healthfirst update.
+
+\item \textbf{Consistently met} production and \textbf{quality targets}, ensuring \textbf{timely} and \textbf{accurate delivery} of audit tasks while adhering to Healthfirst’s \textbf{stringent guidelines}.
+
+\item \textbf{Reviewed internal team’s files } and delivered actionable feedback to ensure adherence to quality standards, swiftly addressing errors to maintain accuracy and consistency in the audit process.
+
+\item \textbf{Conducted refresher and process training sessions to the team}.
+\end{tightemize}
+\sectionsep
+\sectionsep
+\runsubsection{Quadra Systems}
+\descript{| Junior Engineer - Sharepoint Developer }
+\location{Nov 2023 - May 2024 | Coimbatore,  Tamilnadu}
+\begin{tightemize}
+\item Upgraded an outdated SharePoint App \textbf{Document Management System (DMS)} to a newer version, significantly improving performance and enhancing the user interface.
+\item Developed a range of SharePoint apps, including: \\
+\textbf{\textbullet{
+}Birthday wish carousel  \textbullet{}
+Calendar event blocking\\ \textbullet{
+} Holiday calendar \textbullet{
+}Leave management system  \\\textbullet{
+}Norton motorcycles request form }
+\item Worked on \textbf{Sharepoint site migration for Norton motorcycles }
+
+\item Developed \textbf{Sharepoint solution for Quadra intranet portal}
+\end{tightemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Github Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{GITHUB PROJECTS} 
+\descript{React Project Studio37 Photography} \\
+\location{} \href{https://karthik-paramasivam.github.io/Studio_37/#/}{https://karthik-paramasivam.github.io/Studio\_37/\#/}\\
+\sectionsep 
+\descript{Bootstrap Project} \\
+\location{} \href{https://karthik-paramasivam.github.io/Bootstrap/}{https://karthik-paramasivam.github.io/Bootstrap/}\\
+\sectionsep 
+\descript{React Project Todo app} \\
+\location{} \href{https://karthik-paramasivam.github.io/To-Do-App/}{https://karthik-paramasivam.github.io/To-Do-App/}\\
+
+\sectionsep 
+\end{minipage} 
+\end{document}  \documentclass[]{article}
