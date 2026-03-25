@@ -157,7 +157,7 @@ LinkedIn: \href{https://linkedin.com/in/karthikeyan-p-209952262}{\bf Karthikeyan
 \location{Nov 2024 -  Present | Coimbatore,  Tamilnadu}
 \vspace{\topsep}
 \begin{tightemize}
-\item Built a  \textbf{Inventory Management System for Haitian Middle \& Africa} using React, Ant Design, and Google Apps Script with Google Sheets as the database. Implemented role-based access control, inventory tracking, purchase request and delivery workflows with PDF generation and stock updates, dashboard analytics, Excel export, and automated backups with Google Drive integration.
+\item Built a  \textbf{Inventory Management System for Haitian Middle \& Africa} using React, Ant Design, react router and Google Apps Script with Google Sheets as the database. Implemented role-based access control, inventory tracking, purchase request and delivery workflows with PDF generation and stock updates, dashboard analytics, Excel export, and automated backups with Google Drive integration.
 
 \item Developed responsive \textbf{landing pages for Wings Way Training Institute (Dubai) }using React, integrating LeadSquared CRM as the backend. 
 
