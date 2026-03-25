@@ -1,1 +1,161 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Karthikeyan P}{ \item {} 6379943278  | karthikeyan210595@gmail.com
+\item  Coimbatore, Tamilnadu}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Sri Jayendra \\Saraswathy College\\ of Arts \& Science}
+\descript{M.Sc Computer Science}
+\location{April 2017 | Percentage: 78}
+\sectionsep
+
+\subsection{Sri Jayendra \\Saraswathy College\\ of Arts \& Science}
+\descript{B.Sc Computer Science}
+\location{April 2015 | Percentage: 78}
+\sectionsep
+
+\subsection{Kalaimagal Matric \\HR. SEC. School}
+\location{March 2012 | Percentage: 58}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Frontend Technologies}
+\textbullet{} HTML \textbullet{} CSS \textbullet{} Javascript \textbullet{} React \\
+\textbullet{} Bootstrap \textbullet{} Ant Design \\ 
+\sectionsep
+\subsection{SharePoint Development}
+ \textbullet{} SharePoint Framework (SPFx) \\
+ \textbullet{} Patterns and Practices client side \\ libraries (PnPjs) \\
+ \sectionsep
+ \subsection{Version Control}
+ \textbullet{} Git \textbullet{} Github
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Links} 
+Github: \href{https://github.com/Karthik-paramasivam/}{\bf Karthikeyan Paramasivam} \\
+LinkedIn: \href{https://linkedin.com/in/karthikeyan-p-209952262}{\bf Karthikeyan P} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CERTIFICATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Certification} 
+\descript{MERN STACK DEVELOPMENT} \\
+\location{August 2023 | Nschool Academy}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTERESTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{INTERESTS} 
+\textbullet{}Chess\\
+\textbullet{}Cricket
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{STRATIFY TECHNOLOGIES LLC }
+\descript{| Frontend Developer }
+\location{Nov 2024 -  Present | Coimbatore,  Tamilnadu}
+\vspace{\topsep}
+\begin{tightemize}
+\item Developed responsive \textbf{landing pages for Wings Way Training Institute (Dubai) }using React, HTML, CSS, JavaScript, Bootstrap, Ant Design, Framer Motion, and React-Slick Carousel, integrating LeadSquared CRM as the backend. 
+\item  Built a \textbf{digital Service Report Form for Haitian Middle East} to replace the previous paper-based process. Implemented using React, Ant Design, Bootstrap, and jsPDF. Data is stored in Google Sheets and PDF is auto-generated and stored in Google Drive upon submission. 
+\item Developed a \textbf{task tracking app} in React where employees can log tasks. Data is stored in Google Sheets and shown in charts and tables. Admins can view performance and assign tasks. 
+\item Built an \textbf{attendance management app }in React with features like punch in/out, leave requests, and a dashboard. Admins can approve or reject leaves. Used Google Sheets as backend.
+\item Designed a \textbf{consent form for Cryoko} using React and jsPDF.
+\end{tightemize}
+\sectionsep
+\runsubsection{Quadra Systems}
+\descript{| Junior Engineer - Sharepoint Developer }
+\location{Nov 2023 - May 2024 | Coimbatore,  Tamilnadu}
+\begin{tightemize}
+\item Upgraded an outdated SharePoint App \textbf{Document Management System (DMS)} to a newer version, significantly improving performance and enhancing the user interface.
+\item Developed a range of SharePoint apps, including: \\
+\textbf{\textbullet{
+}Birthday wish carousel \textbullet{
+} File bulk upload \textbullet{}
+Calendar event blocking\\ \textbullet{
+} Holiday calendar \textbullet{
+}Leave management system \textbullet{
+}Dynamic list creation\\ \textbullet{
+}Folder hierarchy management \textbullet{
+}Norton motorcycles request form\\ \textbullet{
+} File folder copy and move functionalities}.
+\item Worked on \textbf{Sharepoint site migration for Norton motorcycles }
+\end{tightemize}
+\sectionsep
+\runsubsection{Apexon}
+\descript{| specialist Payor Auditor }
+\location{Nov 2017 - Jan 2023 | Coimbatore,  Tamilnadu}
+\begin{tightemize}
+\item Performed an audit of processes such as\\
+\textbf{\textbullet{} PEGA Medicaid \textbullet{} UWF Billing \textbullet{} CHP Invoice \\\textbullet{} CHP Disenrollment  \textbullet{} CHP Payments \textbullet{} PEGA EIM} \\
+on behalf of Healthfirst Insurance, ensuring that they meet the requirements of Healthfirst's audit guidelines. 
+\item \textbf{Provided process updates to the team} based on the latest HealFirst update.
+\item \textbf{Conducted refresher and process training sessions}. 
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Github Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{GITHUB PROJECTS} 
+\descript{React Project Studio37 Photography} \\
+\location{} \href{https://karthik-paramasivam.github.io/Studio_37/#/}{https://karthik-paramasivam.github.io/Studio\_37/\#/}\\
+\sectionsep 
+\descript{Ant Design Form} \\
+\location{} \href{https://karthik-paramasivam.github.io/antDesignForm/}{https://karthik-paramasivam.github.io/antDesignForm/}\\
+\sectionsep 
+\descript{Bootstrap Project} \\
+\location{} \href{https://karthik-paramasivam.github.io/Bootstrap/}{https://karthik-paramasivam.github.io/Bootstrap/}\\
+\sectionsep 
+\descript{React Project Todo app} \\
+\location{} \href{https://karthik-paramasivam.github.io/To-Do-App/}{https://karthik-paramasivam.github.io/To-Do-App/}\\
+\sectionsep 
+\end{minipage} 
+\end{document}  \documentclass[]{article}
