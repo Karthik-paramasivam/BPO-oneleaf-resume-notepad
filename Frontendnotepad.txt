@@ -1,3 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     LAST UPDATED DATE
@@ -97,34 +152,35 @@ LinkedIn: \href{https://linkedin.com/in/karthikeyan-p-209952262}{\bf Karthikeyan
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{STRATIFY TECHNOLOGIES LLC }
+\runsubsection{Sree Petharna Enterprises }
 \descript{| Frontend Developer }
 \location{Nov 2024 -  Present | Coimbatore,  Tamilnadu}
 \vspace{\topsep}
 \begin{tightemize}
-\item Developed responsive \textbf{landing pages for Wings Way Training Institute (Dubai) }using React, HTML, CSS, JavaScript, Bootstrap, Ant Design, Framer Motion, and React-Slick Carousel, integrating LeadSquared CRM as the backend. 
-\item  Built a \textbf{digital Service Report Form for Haitian Middle East} to replace the previous paper-based process. Implemented using React, Ant Design, Bootstrap, and jsPDF. Data is stored in Google Sheets and PDF is auto-generated and stored in Google Drive upon submission. 
-\item Developed a \textbf{task tracking app} in React where employees can log tasks. Data is stored in Google Sheets and shown in charts and tables. Admins can view performance and assign tasks. 
-\item Built an \textbf{attendance management app }in React with features like punch in/out, leave requests, and a dashboard. Admins can approve or reject leaves. Used Google Sheets as backend.
-\item Designed a \textbf{consent form for Cryoko} using React and jsPDF.
+\item Built a  \textbf{Inventory Management System for Haitian Middle \& Africa} using React, Ant Design, and Google Apps Script with Google Sheets as the database. Implemented role-based access control, inventory tracking, purchase request and delivery workflows with PDF generation and stock updates, dashboard analytics, Excel export, and automated backups with Google Drive integration.
+
+\item Developed responsive \textbf{landing pages for Wings Way Training Institute (Dubai) }using React, integrating LeadSquared CRM as the backend. 
+
+\item  Built a \textbf{Service Report Management Web Application for Haitian Middle East  \& Africa and Tongda Machinery} using React, Ant Design, jsPDF and Google Apps Script with Google Sheets as the database. Implemented authentication, service report form submission, PDF generation, machine registry lookup, image upload, digital signatures, Excel export, search/edit features, and automated backups, replacing a manual paper-based reporting system.
+
+\item Developed a \textbf{Task tracking app} in React where employees can log tasks.  Admins can view performance and assign tasks. 
+
+\item \textbf{Maintained the Haitian Middle East \& Africa website} using Wix by updating pages, publishing blogs, and managing website content. 
+
 \end{tightemize}
 \sectionsep
 \runsubsection{Quadra Systems}
 \descript{| Junior Engineer - Sharepoint Developer }
 \location{Nov 2023 - May 2024 | Coimbatore,  Tamilnadu}
 \begin{tightemize}
-\item Upgraded an outdated SharePoint App \textbf{Document Management System (DMS)} to a newer version, significantly improving performance and enhancing the user interface.
+\item Upgraded an outdated SharePoint App \textbf{Document Management System (DMS)} to a newer version, improving performance and enhancing the user interface.
 \item Developed a range of SharePoint apps, including: \\
 \textbf{\textbullet{
-}Birthday wish carousel \textbullet{
 } File bulk upload \textbullet{}
-Calendar event blocking\\ \textbullet{
-} Holiday calendar \textbullet{
+Calendar event blocking\\  \textbullet{
 }Leave management system \textbullet{
 }Dynamic list creation\\ \textbullet{
-}Folder hierarchy management \textbullet{
-}Norton motorcycles request form\\ \textbullet{
-} File folder copy and move functionalities}.
+}Norton motorcycles request form} .
 \item Worked on \textbf{Sharepoint site migration for Norton motorcycles }
 \end{tightemize}
 \sectionsep
@@ -135,8 +191,7 @@ Calendar event blocking\\ \textbullet{
 \item Performed an audit of processes such as\\
 \textbf{\textbullet{} PEGA Medicaid \textbullet{} UWF Billing \textbullet{} CHP Invoice \\\textbullet{} CHP Disenrollment  \textbullet{} CHP Payments \textbullet{} PEGA EIM} \\
 on behalf of Healthfirst Insurance, ensuring that they meet the requirements of Healthfirst's audit guidelines. 
-\item \textbf{Provided process updates to the team} based on the latest HealFirst update.
-\item \textbf{Conducted refresher and process training sessions}. 
+
 \end{tightemize}
 \sectionsep
 
@@ -145,16 +200,16 @@ on behalf of Healthfirst Insurance, ensuring that they meet the requirements of 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{GITHUB PROJECTS} 
-\descript{React Project Studio37 Photography} \\
+\descript{Portfolio} \\
+\location{} \href{https://karthik-paramasivam.github.io/Portfolio/}{https://karthik-paramasivam.github.io/Portfolio/}\\
+\sectionsep 
+\descript{Studio37 Photography} \\
 \location{} \href{https://karthik-paramasivam.github.io/Studio_37/#/}{https://karthik-paramasivam.github.io/Studio\_37/\#/}\\
 \sectionsep 
-\descript{Ant Design Form} \\
-\location{} \href{https://karthik-paramasivam.github.io/antDesignForm/}{https://karthik-paramasivam.github.io/antDesignForm/}\\
+\descript{Expense Tracker app} \\
+\location{} \href{https://karthik-paramasivam.github.io/expense-tracker/}{https://karthik-paramasivam.github.io/Bootstrap/}\\
 \sectionsep 
-\descript{Bootstrap Project} \\
-\location{} \href{https://karthik-paramasivam.github.io/Bootstrap/}{https://karthik-paramasivam.github.io/Bootstrap/}\\
-\sectionsep 
-\descript{React Project Todo app} \\
+\descript{Todo app} \\
 \location{} \href{https://karthik-paramasivam.github.io/To-Do-App/}{https://karthik-paramasivam.github.io/To-Do-App/}\\
 \sectionsep 
 \end{minipage} 
